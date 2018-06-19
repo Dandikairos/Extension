@@ -5,8 +5,9 @@
 pageextension 50100 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
-    begin
+        begin
         Message('App published: Hello world');
         Message('My AL Dynamics Nav code!');
+        Message('Learning AL - Dynamics Nav Coding Style');
     end;
 }
